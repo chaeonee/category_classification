@@ -4,11 +4,6 @@
 Created on Wed Apr 11 18:00:21 2018
 
 @author: onee
-
-https://github.com/yunjey/pytorch-tutorial
-http://pytorch.org/docs/master/notes/autograd.html
-https://github.com/Cadene/pretrained-models.pytorch
-https://dreamgonfly.github.io/2018/01/30/conda-pytorch.html(pytorch설치)
 """
 
 import torch
