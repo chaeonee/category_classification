@@ -2,7 +2,7 @@
 """
 Created on Wed Jun  6 15:19:07 2018
 
-@author: SM-PC
+@author: onee
 """
 
 # -*- coding: utf-8 -*-
@@ -405,11 +405,11 @@ if __name__ == '__main__':
     train_zip = []
     
     # Load Training Data
-    photo_data_dir = 'C:/Users/SM-PC/Desktop/img_pic/data/photo/'
-    painting_data_dir = 'C:/Users/SM-PC/Desktop/img_pic/data/painting/'
-    clipart_data_dir = 'C:/Users/SM-PC/Desktop/img_pic/data/clipart/'
-    text_data_dir = 'C:/Users/SM-PC/Desktop/img_pic/data/text/'
-    figure_data_dir = 'C:/Users/SM-PC/Desktop/img_pic/data/figure/'
+    photo_data_dir = './data/photo/'
+    painting_data_dir = './data/painting/'
+    clipart_data_dir = './data/clipart/'
+    text_data_dir = './data/text/'
+    figure_data_dir = './data/figure/'
     
     photo_file_list = os.listdir(photo_data_dir)
     painting_file_list = os.listdir(painting_data_dir)
@@ -488,11 +488,11 @@ if __name__ == '__main__':
     test_zip = []
     
     #Load Test Data
-    photo_data_dir2 = 'C:/Users/SM-PC/Desktop/img_pic/data/photo2/'
-    painting_data_dir2 = 'C:/Users/SM-PC/Desktop/img_pic/data/painting2/'
-    clipart_data_dir2 = 'C:/Users/SM-PC/Desktop/img_pic/data/clipart2/'
-    text_data_dir2 = 'C:/Users/SM-PC/Desktop/img_pic/data/text2/'
-    figure_data_dir2 = 'C:/Users/SM-PC/Desktop/img_pic/data/figure2/'
+    photo_data_dir2 = './data/photo_test/'
+    painting_data_dir2 = './data/painting_test/'
+    clipart_data_dir2 = './data/clipart_test/'
+    text_data_dir2 = './data/text2_test/'
+    figure_data_dir2 = './data/figure2_test/'
     
     photo_file_list2 = os.listdir(photo_data_dir2)
     painting_file_list2 = os.listdir(painting_data_dir2)
@@ -591,9 +591,9 @@ if __name__ == '__main__':
     
     # serialize model to JSON
     model_json = model.to_json()
-    with open("C:/Users/SM-PC/Desktop/img_pic/Inception_10_model.json", "w") as json_file:
+    with open("./model/Inception_10_model.json", "w") as json_file:
         json_file.write(model_json)
         
     # serialize weights to HDF5
-    model.save_weights("C:/Users/SM-PC/Desktop/img_pic/Inception_10_model.h5")
+    model.save_weights("./model/Inception_10_model.h5")
     print("Saved model to disk")
