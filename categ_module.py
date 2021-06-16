@@ -57,7 +57,7 @@ def categResult(filenames):
         elif y_classes[i] == 1:
             return 1 # 그림
             
-        elif y_classes[i] == 2:d
+        elif y_classes[i] == 2:
             return 2 # 도형
             
         elif y_classes[i] == 3:
