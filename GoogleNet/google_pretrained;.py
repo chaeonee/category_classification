@@ -2,12 +2,7 @@
 """
 Created on Tue Apr 10 22:42:50 2018
 
-@author: SM-PC
-
-
-https://gist.github.com/joelouismarino/a2ede9ab3928f999575423b9887abd14
-https://github.com/Cadene/pretrained-models.pytorch
-https://dreamgonfly.github.io/2018/01/30/conda-pytorch.html(pytorch설치)
+@author: onee
 """
 
 from scipy.misc import imread, imresize
