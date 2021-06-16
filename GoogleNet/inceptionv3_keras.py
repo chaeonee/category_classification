@@ -4,8 +4,6 @@
 Created on Wed Apr 11 22:44:56 2018
 
 @author: onee
-
-https://github.com/fchollet/deep-learning-models/blob/master/inception_v3.py
 """
 
 
